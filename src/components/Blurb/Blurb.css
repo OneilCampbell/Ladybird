@@ -1,0 +1,22 @@
+.Blurb {
+  min-height: 100vh;
+  width: 50vw;
+  color: white;
+  font-size: 40px;
+  background-color: #e29f93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-style: italic;
+  padding: 45px;
+}
+@media (max-width: 500px) {       
+  .Blurb {
+    width: 100vw;
+    font-size: 25px;
+    min-height: 0;
+  }
+}

@@ -1,0 +1,78 @@
+.Menus {
+  min-height: 100vh;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+.menus__reserve-button {
+  display: none;
+}
+
+.menus_header {
+  width: 143px;
+  height: 45px;
+  font-family: 'Josefin Sans';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  line-height: 1em;
+  margin: 0 auto 20px;;
+}
+
+.menus_titles {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.menus__link {
+  cursor: pointer;
+  border-bottom: 7px solid transparent;
+  font-size: 37px;
+  padding: 0;
+  transition: border-bottom .5s, opacity .3s;
+  display: inline-block;
+  line-height: 1em;
+  margin: 0;
+}
+
+.menus__link:hover {
+  opacity: .7;
+}
+
+.menus__link--active {
+  border-bottom: 7px solid #e29f93;
+}
+
+.menus__active {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.menus__active-leaving {
+  opacity: 0;
+}
+@media (max-width: 500px) {      
+  .Menus{
+    width: 100vw;
+  }
+  .menus_header{
+    font-size: 30px;
+
+  }
+  .menus__link{
+    font-size: 20px;
+  }
+  
+  .menus__reserve-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 55px auto 20px;
+  }
+}
+  
