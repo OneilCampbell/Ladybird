@@ -19,7 +19,7 @@ This project is a redesign of the website for New York City restaurant Ladybird.
 ### Useful npm scripts
 If you simply intend to work on the front end (React, CSS, Axios, etc.), you'll want to run <code>npm start</code>, so that the server will start and continue to run seamlessly, and you'll be able to see your changes every time you save.
 
-If you intend to work on the back end of the site (express, Sequelize, etc.), you'll want to run <code>npm run dev</code>, so that the server will restart whenever you save changes.
+If you intend to work on the back end of the site (Express, Sequelize, etc.), you'll want to run <code>npm run dev</code>, so that the server will restart whenever you save changes.
 
 ## Component Hierarchy
 <details>
